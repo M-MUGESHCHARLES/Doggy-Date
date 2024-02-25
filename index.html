@@ -1,0 +1,454 @@
+<!Doctype html>
+<html lang="en">
+
+    <head>
+
+        <meta  charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+           <!-- title -->
+
+        <title> Doggy-Date </title>
+
+           <!-- icon -->
+
+           <link rel = "icon" href ="images/paw-icon.ico">
+
+           <!-- bootstrap -->
+
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+                  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+                <!-- external stylesheet -->
+
+            <link rel="stylesheet" href="css/style.css">
+
+                <!-- google fonts -->
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap" rel="stylesheet">
+
+                <!-- font awesome icons -->
+      
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+                integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+                 <!-- internal styles -->
+
+            <style>
+                   
+                   /** for the mobile view **/
+                
+                @media (max-width:480px){
+                    
+                    /** doggy-date-img-1 homepage **/
+                    .doggy-date-img1{
+                         transform:none;
+                         height: 300px ;
+                         width:300px;
+                         top: 0px;   
+                         left:auto;
+                         right:auto;                    
+                    } 
+
+                    /** testimonial-section **/
+                    .carousel-control-next {
+                        padding: 5%;
+                    }
+                    .carousel-item {
+                       padding: 8px 20px;
+                    }
+                    .testimonial-text {
+                        font-size: 1rem;
+                        line-height: 1.5;
+                    }
+                    .testimonial-image {
+                         width: 25%;
+                         padding: 5px;
+                    }
+                    .text-muted {
+                        font-size: 0.7rem;
+                    }
+                    .carousel-indicators{  /** slide indicators **/
+                            top: 100%;
+                    }
+                    .carousel-control-prev {  /** silde movement button **/
+                        left:-20px;
+                            height: 15px;
+                                width: 15px;
+                                top: 105px;
+                    }
+                    .carousel-control-next{  /** silde movement button **/
+                        right:-35px;
+                            height: 15px;
+                                width: 45px;
+                                top: 100px;
+                    }
+
+                }
+
+            </style>    
+
+    </head>
+
+    <body>
+            <!-- title section -->
+
+        <section id="title">
+             
+            <!-- navigation bar --> 
+
+            <div class="navigation">
+
+                <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+
+                    <div class="container-fluid">
+
+                        <!-- brand name in the navigation bar -->
+
+                      <span class="navbar-brand mb-0 h1"> Doggy-Date </span>
+                         
+                        <!-- toogler button , when the page size is viewed in small screens -->
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
+                                 
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <!-- navigation buttons -->
+
+                        <div class="collapse navbar-collapse" id="navbarToggler">
+
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#home"> &bull; &nbsp; Home </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#features">&bull; &nbsp; Features </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#pricing">&bull; &nbsp; Pricing </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#call-to-action">&bull; &nbsp; Download </a>
+                                </li>
+                                
+                            </ul>
+                           
+                        </div>
+                    </div>
+
+                </nav>
+
+            </div>
+
+                 <!-- home page -->
+
+            <div class="home-page" id="home">
+
+                <div class="container-fluid" >
+                    
+                   <div class="row">
+                      
+                        <div class=" home-page-content col-lg-6 col-md-12 col-sm-12">
+                                                                         
+                               <h1> Find the True Love of Your Dog's Life Today.</h1>
+                        
+                                <!-- download buttons -->
+
+                               <div>
+                                  <button type="button" class="download-button btn btn-dark btn-lg "> <i class="fa-brands fa-google-play"></i> &nbsp; Download </button> 
+                        
+                                  <button type="button" class="download-button btn btn-outline-light btn-lg"> <i class="fa-brands fa-apple fa-lg"></i> &nbsp; Download </button>
+                               </div>                          
+                        </div>
+
+                        <!-- doggy date image 1 -->
+
+                        <div class=" home-page-img col-lg-6 col-md-12 col-sm-12 justify-content-end">
+                                                        
+                                <img class="doggy-date-img1" src="images/doggy-date-1.png" alt="home-page" height="400px" width="400px">
+                            
+                        </div>
+                    </div>                        
+                </div>                    
+            </div>
+
+        </section>
+
+              <!-- features section -->
+
+        <section class="features-section" id="features">
+
+            <div class="container-fluid">
+
+                <div class="row">
+
+                    <div class="feature col-lg-4 col-md-6 col-sm-12">
+                        
+                            <i class="icon fa-solid fa-lock fa-2x"></i>  <!-- icon -->
+                        
+                            <h3> End-to-end encryption </h3>
+                            <p>  messages will be encrypted before sent and decrypted once received. </p>
+                    </div>
+
+                    <div class="feature col-lg-4 col-md-6 col-sm-12">
+                        
+                            <i class="icon fa-solid fa-people-group fa-2x"></i> <!-- icon -->
+                        
+                            <h3> Group chats </h3>
+                            <p> you can create group chats with your neighbour paw's. </p>
+                    </div>
+
+                    <div class="feature col-lg-4 col-md-6 col-sm-12">
+                        
+                            <i class="icon fa-solid fa-face-smile fa-2x"></i> <!-- icon -->
+                        
+                            <h3>Easy-to-use </h3>
+                            <p> So easy to use, even your dog could do it. </p>
+                    </div>
+
+                    <div class="feature col-lg-4 col-md-6 col-sm-12">
+                        
+                            <i class="icon fa-solid fa-phone fa-2x"></i> <!-- icon -->
+                        
+                            <h3>Voice and video calls </h3>
+                            <p> connect with your loved paw through voice and video calls. </p>
+                    </div>
+
+                    <div class="feature col-lg-4 col-md-6 col-sm-12">
+                        
+                            <i class="icon fa-solid fa-quote-left fa-2x"></i> <!-- icon -->
+                        
+                            <h3>Status </h3>
+                            <p> You can set a custom status message that will be visible to your contacts. </p>
+                    </div>
+
+                    <div class="feature col-lg-4 col-md-6 col-sm-12">
+                    
+                        <i class="icon fa-solid fa-shield-halved fa-2x"></i> <!-- icon -->
+                    
+                        <h3>Privacy </h3>
+                        <p> Give users control over to customize their privacy settings. </p>
+                    </div>
+
+                </div>            
+            </div>
+        
+        </section>
+
+        <!-- Testimonials section -->
+        
+        <section class="testimonial-section" id="testimonials">
+
+            <div class="container-fluid">
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+                    
+                    <!--  Carousel indicators used to represent the number of slides in this section -->
+
+                    <div class="carousel-indicators">
+
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"> </button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"> </button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"> </button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"> </button>
+
+                    </div>
+
+                    <div class="carousel-inner">
+
+                        <!-- carousel items / testimonial slides contents -->
+
+                        <div class="carousel-item active">
+
+                            <h2 class="testimonial-text">
+                                From the moment I sniffed my way into the enchanting world of Doggy-Date, my tail hasn't
+                                stopped wagging! This fantastical app isn't just about finding a playmate; it's about discovering a paw-some companion for life's
+                                adventures.</h2>
+                            
+                            <img class="testimonial-image" src="images/testimonial-img-1.png" alt="dog-profile">
+                            <em class="text-muted" > - Charlie & Daisy, Paris, France </em>
+
+                        </div>
+
+                        <div class="carousel-item">
+
+                            <h2 class="testimonial-text">
+                                Doggy-Date isn't just about finding love; it's about fostering friendships too! The 'Bark Board' feature allows us to
+                                organize group outings, where we can romp and roll together with our newfound pals. It's like a canine carnival
+                                every time!</h2>
+                            
+                            <img class="testimonial-image" src="images/testimonial-img-2.png" alt="lady-profile">
+                            <em class="text-muted" > - Max, Amsterdam, Netherlands</em>
+
+                        </div>
+
+                        <div class="carousel-item">
+
+                            <h2 class="testimonial-text">Thanks to Doggy-Date, I've met my fur-ever friend, and our bond grows stronger with every
+                                playdate. Whether it's sharing treats, swapping stories, or simply enjoying each other's company, I'm grateful for the magic this app has brought
+                                into my life.</h2>
+                            
+                            <img class="testimonial-image" src="images/testimonial-img-3.png" alt="lady-profile">
+                            <em class="text-muted" > - Duke & Luna, Sydney, Australia</em>
+
+                        </div>
+
+                        <div class="carousel-item">
+                        
+                            <h2 class="testimonial-text"> So, if you're a pup looking for companionship, adventure, and maybe a sprinkle of puppy love, look no further than
+                                Doggy-Date. It's where tails wag, hearts flutter, and friendships flourish. Trust me; your next tail-wagging adventure
+                                awaits!" </h2>
+                        
+                            <img class="testimonial-image" src="images/testimonial-img-4.png" alt="lady-profile">
+                            <em class="text-muted"> - Oliver , Toronto, Canada</em>
+                        
+                        </div>
+
+                    </div>
+                     
+                     <!-- ( previous and next slide ) movement controls button -->
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"> </span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"> </span>
+                    </button>
+
+                </div>
+            </div>        
+   
+        </section>
+
+        <!-- pricing section -->
+
+        <section class="pricing-section " id="pricing" >
+
+            <div>
+                <h2 class="pricing-heading mb-2"> Our greatest plans are for your interest ! </h2>
+                <p class="pricing-para pb-2">A plan that addresses every dog's needs, with cost plans that are simple and affordable for both you and your dog.
+            </div>
+
+        <div class="row ">
+
+                         <!-- 1 pricing -->
+                <div class="col-lg-4 col-md-6 col-sm-12  ">
+                
+                    <div class="card border-secondary shadow-lg p-3 mb-5 bg-white rounded-5 ">
+                
+                        <div class="card-header text-white border-secondary" style="background-color: #CD7F32; color: white;">
+                
+                            <center> <h4> Free </h4> </center>
+                        </div>
+                
+                        <div class="card-body">
+                
+                            <h1 class="mb-4"> $0 <small class="text-muted fw-light"> / mo </small> </h1>
+                                
+                                <p> 10 Matches </p>
+                                <p> 20 Messages </p>
+                                <p> Unlimited App Usage </p>
+                                            
+                            <button type="button" class=" btn-outline-primary w-100 btn btn-lg mt-3"> Sign Up </button>
+                        </div>
+                    </div>
+                </div>
+
+                         <!-- 2 pricing -->
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                
+                    <div class="card border-secondary shadow-lg p-3 mb-5 bg-white rounded-5">
+                
+                        <div class="card-header border-secondary" style="background-color: #BCC6CC; color: white;">
+                
+                            <center> <h4> Silver </h4> </center>
+                        </div>
+                
+                        <div class="card-body">
+                
+                            <h1 class="mb-4"> $49 <small class="text-muted fw-light"> /mo </small> </h1>
+                                
+                                <p> Unlimited Matches </p>
+                                <p> Unlimited Messages </p>
+                                <p> Unlimited App Usage </p>
+                
+                            <button type="button" class="btn-outline-primary w-100 btn btn-lg mt-3"> Sign Up </button>
+                        </div>
+                    </div>
+                </div>               
+
+                        <!--  3 pricing -->
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+
+                    <div class="card border-secondary shadow-lg p-3 mb-5 bg-white rounded-5 ">
+
+                        <div class="card-header text-white border-secondary" style="background-color: gold; color: white;">
+
+                            <center>  <h4> Gold </h4> </center>
+                        </div>
+
+                        <div class="card-body">
+
+                            <h1 class="mb-4"> $99 <small class="text-muted fw-light"> /mo </small> </h1>
+                                
+                                    <p> Pirority Listing </p>
+                                    <p> Unlimited Matches </p>
+                                    <p> Unlimited Messages </p>
+                                    <p> Unlimited App Usage </p>                           
+                            
+                            <button type="button" class=" w-100 btn btn-lg btn-outline-primary mt-3"> Sign Up </button>
+                         </div>
+                    </div>
+                </div>
+                                
+            </div>
+        </section>
+
+                 <!--  call to action -->
+
+        <section class="call-to-action" id="call-to-action">
+
+            <div class="container-fluid">
+
+                <h2> Together, let's seek out the true love of your dog's life today. </h2>
+
+                <div>
+                        <!-- download button -->
+
+                    <button type="button" class="download-button btn btn-dark btn-lg "> <i class="fa-brands fa-apple fa-lg"></i> &nbsp; Download </button> 
+
+                    <button type="button" class="download-button btn btn-outline-light btn-lg"> <i class="fa-brands fa-google-play"></i> &nbsp; Download </button>
+                </div>
+
+            </div> 
+        </section>
+
+                 <!-- fotter section -->
+
+        <section class="footer" id="footer" >
+
+            <div>
+                <div>
+
+                   <a class="footer-icon" href="www.facebook.com" rel="noopener" target="_blank"> <i class=" fa-brands fa-square-facebook"></i> </a>
+                    <a class="footer-icon" href="www.twitter.com" rel="noopener" target="_blank"> <i class="fa-brands fa-square-x-twitter"></i> </a>
+                    <a class="footer-icon" href="www.instagram.com" rel="noopener" target="_blank"> <i class="fa-brands fa-square-instagram"></i>  </a>
+                </div>
+
+                <p class="footer-text mt-3"> Copyright © 2024 Doggy-Date </p>
+
+            </div>
+        </section>           
+
+    </body>
+</html>
