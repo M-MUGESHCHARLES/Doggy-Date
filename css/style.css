@@ -1,0 +1,208 @@
+body{
+    margin:0;
+    background-color: #F9F7F7;
+}
+  /********** start title section ***************/
+  
+.navbar{                     /**navigation bar **/
+    background-color: #7D0A0A;
+    font-family:'Ubuntu', sans-serif;
+    position:fixed;
+}
+
+.navbar-nav{
+    margin-right:15%;
+}
+
+.navbar-brand{             /** nav brand style**/    
+    padding-left: 10%; 
+    color: #FFC26F !important;
+    font-size: 1.2rem;
+}
+
+.nav-link{
+    color:black;
+}
+
+.nav-link:hover{                /** hover style**/
+    color:beige !important;
+
+}
+
+           /** home page **/
+
+.home-page{
+    padding: 120px 40px 0 40px;
+    background-color: #BF3131;
+}
+
+.home-page-content {
+    padding-right: 20px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+.home-page-content h1 {
+    color: #F3EDC8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.download-button {        /** download buttons **/
+    margin:15px ;
+}
+
+.home-page-img {      /** to display dogggy-date-img in right side of the screen **/ 
+    display:flex;
+}
+
+.doggy-date-img1 {        /** image transformation style **/
+    transform:rotate(30deg);
+    position: relative;
+    top: 30px;
+    left:-30px;
+
+}
+ 
+    /*********** end title section ********/
+
+    /*********** start features section *********/
+
+.features-section {
+    padding: 7% 10% ;
+    background-color: #F9F7F7;
+}    
+
+.feature {
+    padding:20px;
+    text-align: center;
+}
+
+.feature h3 {
+    color:#F05941;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.feature p {
+    color: grey;
+}
+
+.icon {
+    color:#FF8080;
+}
+
+.icon:hover {
+     color: #BF3131;
+}
+
+     /********* end of features section *******/
+
+     /******** start of testimonial section *******/
+
+ .testimonial-section {
+    padding: 7% 10% 10%;
+    background-color:#FF8080 ;
+    height:auto;
+ }    
+
+ .carousel-indicators{
+    top:110%;
+    width: 40px;
+    margin-left: 50%;
+    margin-right: 50%;
+ }
+
+.carousel-item {
+    padding: 10px 80px;
+    text-align: center;
+}
+.testimonial-text {
+    font-size: 1.5rem;
+    color: #F3EDC8;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 20%;
+    border-radius: 100%;
+    padding : 20px;
+}
+
+.carousel-control-prev {
+    left:-60px;
+}
+.carousel-control-next {
+    right:-60px;
+}
+ 
+        /*************** end of testimonial section ***********/
+
+        /***************** start of pricing section ************/
+
+#pricing {
+    padding: 7% 10% 5%;
+    background-color: #F9F7F7;
+}     
+
+.pricing-heading{
+    color: #F05941;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 15%;
+}
+
+.pricing-para {
+    color: grey;
+}
+
+.card {
+    margin: 10px;
+    border-radius: 1.2rem;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+
+           /********** end of pricing section ***********/
+
+           /********** start of call-to-action ***********/
+
+#call-to-action {
+    padding: 7% 10%;
+    text-align: center;
+    background-color: #FF8080;
+    margin: 0 3%;
+        border-radius: 25px;
+}
+
+.call-to-action h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+        color: #F3EDC8;
+        line-height: 1.5;
+}           
+
+         /********* end of cta *********/
+
+         /*********  start of footer ********/
+
+#footer {
+    padding: 3% 10%;
+        background-color: #F9F7F7;
+        text-align: center;
+        color:gray;
+}         
+
+.footer-icon {
+    text-decoration: none;
+    color: gray;
+    margin:15px;
+    font-size: larger;
+}
+
+.footer-icon:hover {
+    color :black
+}          
+     /*********** end of footer *******/
